@@ -9,8 +9,16 @@ En personlig **Hearthstone Battlegrounds-tracker til Windows** med live-overlay,
 
 ## Download og installation
 
-Hent den nyeste **BG-Tracker-Setup-<version>.exe** under [Releases](https://github.com/mhermansen-code/bg-tracker-releases/releases/latest), og kør installeren.
+Installeren er **ikke digitalt signeret med et udgivercertifikat**. Windows kan derfor vise **Windows beskyttede din pc** eller en ukendt udgiver under installationen.
 
-Hearthstone skal køre i vindue eller borderless fullscreen. Ved første start kan du kontrollere Hearthstone-mappen og aktivere logning under **Indstillinger**.
+1. Hent den nyeste **BG-Tracker-Setup-<version>.exe** under [Releases](https://github.com/mhermansen-code/bg-tracker-releases/releases/latest). Du skal kun hente `.exe`-filen; de øvrige filer bruges til automatiske opdateringer.
+2. Åbn den hentede fil. Hvis Windows viser **Windows beskyttede din pc**, klik **Flere oplysninger** (*More info*) og derefter **Kør alligevel** (*Run anyway*), hvis du har tillid til denne udgivelse.
+3. Følg installationsguiden, og start appen.
+4. Åbn **Indstillinger**, og kontrollér Hearthstone-mappen. Hvis logning mangler, klik **Ret log.config**, og genstart Hearthstone.
+5. Kør Hearthstone i **vindue eller borderless fullscreen**, så overlayet kan vises oven på spillet.
+
+Du behøver ikke slå antivirus eller SmartScreen fra. Hvis **Kør alligevel** ikke er tilgængelig, kan pc'ens sikkerhedsindstillinger blokere installationen. [Microsofts beskrivelse af SmartScreen ved installation](https://learn.microsoft.com/windows/apps/package-and-deploy/publish-first-app).
+
+Din lokale historik og dine indstillinger bevares, når du installerer en nyere version.
 
 Dette repo indeholder installationsfiler og opdateringer. Din spilhistorik og dine indstillinger gemmes lokalt på din pc.
